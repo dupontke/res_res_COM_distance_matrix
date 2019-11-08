@@ -118,7 +118,7 @@ with open(parameters['avg_dist_output'],'w') as W, open(parameters['std_dist_out
         for j in range(nNodes):
             W.write('%10f   ' %(avg_matrix[i,j]))
             Y.write('%10f   ' %(std_matrix[i,j]))
-        X.write('\n')
+        W.write('\n')
         Y.write('\n')
 
 # ----------------------------------------

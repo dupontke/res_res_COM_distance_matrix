@@ -2,7 +2,7 @@
 NPRODS=100
 NCPUS=6
 sys=wt_ssrna_atp_1
-prod=1
+prod=
 for ((i=1;i<=10;i++))
 do
 	j=1
